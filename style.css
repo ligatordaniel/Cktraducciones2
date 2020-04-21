@@ -5,8 +5,7 @@ body {
   /* display: flex; */
   justify-content: center;
   align-items: center;
-  background-color:#5e2760;
-  background: url("img/bg.png") no-repeat center center fixed;
+  background-color:#ffffff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -19,4 +18,13 @@ audio{display: none;}
   top: 100px;
   right: 0;
   z-index: 9999;
+}
+.imgLogo{
+  height: 50px;
+  margin: 0 auto;
+  display: block;
+}
+.centrar{
+  margin: 0 auto;
+  width: 200px;
 }

@@ -27,16 +27,16 @@
 
   <body>
     <div class="container">
+    <div class="container">
       <div class="row">
-        <div class="col s6 ">
-        <h5>CkTraduccionesV2</h2>
+        <div class="col s12">
+        <img class="imgLogo" src="img/logoCompleto.png" alt="logo">
         </div>
       </div>
-    <div class="row">
+    <div class="row s12">
           <div class="carousel  carousel-slider">
-            <a class="carousel-item" href="#"><img src="./img/01.jpeg" alt="publicidad"></a>
-            <a class="carousel-item" href="#"><img src="./img/02.jpeg" alt="publicidad"></a>
-            <a class="carousel-item" href="#"><img src="./img/03.jpeg" alt="publicidad"></a>
+            <a class="carousel-item" href="#"><img src="./img/01.png" alt="publicidad"></a>
+            <a class="carousel-item" href="#"><img src="./img/02.png" alt="publicidad"></a>
           </div>
     </div>
   </div>
@@ -44,20 +44,12 @@
       <source src="http://190.96.82.67:8000/stream" type="audio/mpeg">
     Your browser does not support the audio element.
     </audio>
-
-    <div class="fixed-action-btn toolbar">
-      <a class="btn-floating btn-large pulse red waves-effect waves-purple">
-        <i class="large material-icons">radio</i>
-      </a>
-      <ul>
-        <li class="waves-effect waves-light"><button class="btn btn-flat white-text" onclick="document.getElementById('player').play()"><i class="large material-icons">play_arrow</i></button></li>
-        <li class="waves-effect waves-light"><button class="btn btn-flat white-text" onclick="document.getElementById('player').pause()"><i class="medium material-icons">pause</i></button></li>
-        <li class="waves-effect waves-light"><button class="btn btn-flat white-text" onclick="document.getElementById('player').volume-=0.2"><i class="medium material-icons">volume_down</i></button></li>
-        <li class="waves-effect waves-light"><button class="btn btn-flat" onclick="document.getElementById('player').volume+=0.2"><i class="medium material-icons white-text">volume_up</i></button></li>
-      </ul>
+    <div class="centrar">
+    <button class="btn" onclick="document.getElementById('player').play()"><i class="large material-icons">play_arrow</i></button>
+    <button class="btn" onclick="document.getElementById('player').pause()"><i class="medium material-icons">pause</i></button>
     </div>
-    
-      
+
+  </div>    
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script type="text/javascript" src="./script.js"></script>
